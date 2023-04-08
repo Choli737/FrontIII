@@ -1,6 +1,6 @@
 # ctd-fe3-final
 
-Examen Final de Frontend III
+Prueba Final de Frontend III
 
 ## Indice
 
@@ -11,7 +11,6 @@ Examen Final de Frontend III
 - [Desarrollo](#desarrollo)
 - [API](#api)
 - [Entrega](#entrega)
-  - [Fecha de Entrega](#fecha-de-entrega)
   - [Formato de Entrega](#formato-de-entrega)
 
 ## Requisitos
@@ -26,7 +25,7 @@ git clone https://github.com/Frontend-III/fe3-final
 cd fe3-final
 
 # elimina los links al repositorio de DH
-git remove remote origin
+git remove rm origin
 
 # Agrega el link al repositorio de tu cuenta de github, reemplaza <tuusuario> por tu cuenta
 git remote add origin https://github.com/<tuusuario>/fe3-final
@@ -35,7 +34,7 @@ git remote add origin https://github.com/<tuusuario>/fe3-final
 git push -u origin main
 ```
 
-### Condiciones de aprobación
+### Condiciones
 
 Las siguientes condiciones son requisitos mínimos necesarios para la aprobación del final:
 
@@ -89,6 +88,4 @@ Y para cada dentista en especifico:
 
 Se aceptará la entrega mediante la submisión de la URL de su repositorio clonado
 
-El link al Google Form para la submisión será enviado por el profesor a cargo de la comisión.
 
-Mucha suerte y éxitos!
