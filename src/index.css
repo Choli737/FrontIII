@@ -11,34 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.favButton{
-  background-color: rgba(136, 136, 136, 0.116);
+
+.favButton {
+  background-color: rgba(5, 26, 18, 0.116);
   padding: 10px;
   border: none;
   width: 100%;
   cursor: pointer;
 }
 
-h1{
+.favButton:hover {
+  background-color: rgb(26, 2, 87);
+  color: azure;
+}
+
+h1 {
   text-align: center;
 }
 
-nav{
+nav {
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
+  width: 100%;
   padding: 1rem;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
 
-a{
+a {
   color: #000;
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
 }
-a:hover{
-  color: rgb(136, 136, 136);
-} 
+
+a:hover {
+  color: rgb(23, 141, 168);
+}
 
 footer {
   display: flex;
@@ -52,16 +60,17 @@ footer {
   margin-top: 2rem;
 }
 
-footer > img{
+footer>img {
   width: 200px;
   margin: 0;
 }
-footer > p{
+
+footer>p {
   margin: 0;
   padding-top: 0.7rem;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -70,7 +79,7 @@ form{
   margin: 0 auto;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -80,11 +89,12 @@ form{
   border: 0.5px solid rgb(136, 136, 136);
 }
 
-.card:hover{
+.card:hover {
   border: 0.5px solid rgb(206, 217, 142);
+  background-color: rgb(234, 255, 170);
 }
 
-.card-grid{
+.card-grid {
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
@@ -94,13 +104,18 @@ form{
   margin: 0 auto;
 }
 
-table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
 }
 
 td, th {
@@ -113,10 +128,40 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.dark{
-  background-color: #12121296;
+.dark {
+  background-color: #4972b496;
+  color: white;
+  font-size: larger;
+}
+
+.dark>a {
   color: white;
 }
-.dark > a {
-  color: white;
+
+.contactUs {
+  margin-left: 1.5rem;
+}
+
+.theme {
+  height: 3rem;
+  align-self: center;
+}
+
+.theme:hover {
+  background-color: rgb(26, 2, 87);
+  color: azure;
+}
+
+.submit {
+  width: 5rem;
+}
+
+.submit:hover {
+  background-color: rgb(26, 2, 87);
+  color: azure;
+}
+
+.home {
+  margin-left: 1.5rem;
+  text-align: center;
 }
